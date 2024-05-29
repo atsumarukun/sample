@@ -6,7 +6,7 @@ type Sample struct {
 	value string
 }
 
-func NewSample(value: string) *Sample {
+func NewSample(value string) *Sample {
 	return &{value: value}
 }
 
