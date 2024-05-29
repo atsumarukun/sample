@@ -10,6 +10,6 @@ func NewSample(value string) *Sample {
 	return &Sample{value: value}
 }
 
-(s Sample) func Print() {
+func (s Sample) Print() {
 	fmt.Println(s.value)
 }
