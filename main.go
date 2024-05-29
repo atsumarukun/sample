@@ -7,7 +7,7 @@ type Sample struct {
 }
 
 func NewSample(value string) *Sample {
-	return &{value: value}
+	return &Sample{value: value}
 }
 
 (_ Sample) func Print() {
