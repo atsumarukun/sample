@@ -1,7 +1,11 @@
-package main
+package sample
 
 import "fmt"
 
-func main() {
-	fmt.Println("Sample")
+type Sample struct {
+	value string
+}
+
+(_ Sample) func Print() {
+	fmt.Println(value)
 }
