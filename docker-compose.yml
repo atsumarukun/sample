@@ -1,0 +1,7 @@
+services:
+  main:
+    image: golang:1.22
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    tty: true
